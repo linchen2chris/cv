@@ -129,44 +129,53 @@
 \CVItem{2007 - 2011\hfill\textsc{四川大学}}\\
 \textit{-公共管理学院}\\
 \textit{-管理学学士学位}\\
-\\
 %% Skills
-\CVSection{专业技能}
-\hrule
-\SmallSep
-\CVItem{前端相关}\\
-\textit{$\bullet$ 熟悉react, react-native, redux, alt框架，js/CSS/html, jss, typescript等} \\
-\\
-\CVItem{后端相关}\\
-\textit{$\bullet$ 熟悉spring boot框架, nodejs, mongodb等 } \\
-\\
-\CVItem{其它}\\
-\textit{$\bullet$ 熟悉CI/CD, Agile, Scrum，TDD等开发方法, 前后端测试框架 }\\
-\\
+% \CVSection{专业技能}
+% \hrule
+% \SmallSep
+% \CVItem{前端相关}\\
+% \textit{$\bullet$ 熟悉react, react-native, redux, alt，js/CSS/html, jss, typescript等} \\
+% \\
+% \CVItem{后端相关}\\
+% \textit{$\bullet$ 熟悉spring boot框架, nodejs, mongodb等 } \\
+% \\
+% \CVItem{其它}\\
+% \textit{$\bullet$ 熟悉CI/CD, Agile, Scrum，TDD等开发方法, 前后端测试框架 }\\
+% \\
 
 % Experience
 \CVSection{工作经历}
 \hrule
 \SmallSep
 \CVItem{2016.10 - 至今 \hfill ThoughtWorks}\\
-\textit{$\bullet$ 担任软件工程师，Tech Leader，为一家大型海外金融企业提供软件交付服务} \\
-\textit{$\bullet$ 项目技术栈：后端采用Spring boot搭建微服务架构，前端采用~react~+~flux~} \\
-\textit{$\bullet$ 项目采用成都-海外合作开发的形式，通过网页收集用户信息，验证用户，提交用户信息，在线申请保险，在线开
-  通银行卡}\\
-\textit{$\bullet$ 我承担了大部分前端工作和部分后端工作，搭建了可与其它组共用
-  的~react~组件库; 承担了团队的技术管理工作，帮助多位后来的同事熟悉项目}\\
+\textit{$\bullet$ 担任软件工程师，Tech Leader} \\
+\textit{$\bullet$ 项目简介：项目为一家海外金融机构的网上保险和网上银行业务, 通过
+  采集新用户信息，验证并提交来创建新帐户, 或老用户登录来查看和管理自己的网上银行帐户信
+  息.} \\
+\textit{$\bullet$ 项目技术细节: \\\textbf{前端}主要采用~react+redux~搭建用户页面; 使用babel编
+  译~ES6~和~react~语法; 使用~webpack2~打包~css~和~js~文件; 使用~enzyme~和~mocha~实现了95\%以上前端单元测
+  试; 使用~eslint~做前端代码格式检查; 并使用~prettier-js~做前端代码自动格式化; 搭建
+  ~sonarQube~做代码缺陷静态扫描; 使用~CSS-module~实现~css~模块化; 为实现前后端分离开发,
+  采用~mounteBank~搭建~mock~服务器, 避免后端不稳定, 阻碍前端开发; 使用~storybook~
+  来快速开发~react~组件; 为实现跨项目基础组件共享, 抽离基础组件到一个新项目, 并
+  ~publish~到内部~npm registry中; 使用~protractor~做~End2End~测试.\\
+  \textbf{后端}主要使用~spring boot~搭建微服务架构, 每个前端项目创建一个~BFF (Backend for
+  Fontend)~项目, 统一编排这个前端项目需要的所有后端请求; 数据库主要采用~mysql~和
+  ~PostgreSQL~, 开发中主要使用~h2~; 使用~axway~做~api gateway~; 引入~correlationID~追踪请求在名个
+  ~service~间的传递日志; 使用~dozer做不同~data model~间的转换; 使用~lombok~消除
+  大量冗余代码; 使用pact做服务间协议测试. \\
+  \textbf{Devops方面:}使用~AWS~云服务, 使用~Jenkins~做~CI/CD~, 使用蓝绿部署来上线.} \\
 \\
 \CVItem{2015.10 - 2016.10 \hfill 创业项目}\\
-\textit{$\bullet$ 参加并主导创业项目。该项目旨在建立一个医院血透管理系统} \\
-\textit{$\bullet$ 项目技术栈：后端采用nodejs + mongodb, 前端采用react+redux} \\
+\textit{$\bullet$ 参加创业项目。搭建医院血透管理系统} \\
+\textit{$\bullet$ 项目技术栈：后端采用~nodejs + mongodb~, 前端采用~react+redux~} \\
 \textit{$\bullet$ 项目通过患者移动端，和医院~web~端协同工作，实现肾病患者的全周
-  期管理。我承担了大部分后端api和数据库的开发工作，为所有的前端提供服务，也承担
-  了部分前端页面的开发。}\\
+  期管理。}\\
 \\
-\CVItem{2014.07 - 2015.09\hfill CIeNET，瞬联科技}\\
-\textit{$\bullet$ 担任后端工程师，开发并维护电信后台计费系统Kenan} \\
-\textit{$\bullet$ 项目主要采用C/C++, 基于Unix服务器开发，熟悉vim, emacs, unix等
-  开发工具和开发环境, 所在小组参与了实时计费系统和后计费系统的整合。} \\
+% \CVItem{2014.07 - 2015.09\hfill CIeNET，瞬联科技}\\
+% \textit{$\bullet$ 担任后端工程师，开发并维护电信后台计费系统Kenan} \\
+% \textit{$\bullet$ 项目主要采用C/C++, 基于Unix服务器开发，熟悉vim, emacs, unix等
+%   开发工具和开发环境, 所在小组参与了实时计费系统和后计费系统的整合。} \\
 
 % CAMPU
 %% \CVSection{专业经历}
