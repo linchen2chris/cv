@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Document properties and packages
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[a4paper,12pt,final]{memoir}
+\documentclass[a3paper,12pt,final]{memoir}
 \usepackage{CJKutf8}%中文支持
 
 % misc
@@ -91,10 +91,10 @@
 \begin{flushright}\footnotesize
 .\\
 \vskip 6cm
-    \raggedright
-	\CVItem{{\large 个人信息:}}\\
-	电子邮件:\\
-	\href{mailto:lc1990linux@gmail.com}{lc1990linux@gmail.com}  \\
+\raggedright
+\CVItem{{\large 个人信息:}}\\
+电子邮件:\\
+	\href{mailto:clin@thoughtworks.com}{clin@thoughtworks.com}  \\
 	个人主页:\\
 	\href{http://linchen2chris.github.io/}{linchen2chris.github.io} \\
 	手机:\\ 13540394019	
@@ -103,6 +103,14 @@
   \SmallSep
 	\textit{\textbf{中文}：母语 \\\textbf{英语}：流利，可以和海外工程师合作\\}
 	
+  \vskip 1cm
+  \CVItem{{\large 教育背景:}}\\
+  \SmallSep
+	\textit{\textbf{计算机科学与技术专业硕士}\\
+    四川大学\\
+    \textbf{公共管理本科}\\
+    四川大学\\}
+
 	%% \SmallSep
 	%% \textit{能够在Android和WP平台上编写简单的Apps，熟练使用\LaTeX 和LINUX}
 	
@@ -119,39 +127,64 @@
 \normalsize\normalfont
 
 % Education
-\CVSection{教育背景}
-\hrule
-\SmallSep
-\CVItem{2011 - 2014\hfill\textsc{四川大学}}\\
-\textit{-计算机学院}\\
-\textit{-理学硕士学位}
-\\
-\CVItem{2007 - 2011\hfill\textsc{四川大学}}\\
-\textit{-公共管理学院}\\
-\textit{-管理学学士学位}\\
-%% Skills
-% \CVSection{专业技能}
+% \CVSection{教育背景}
 % \hrule
 % \SmallSep
-% \CVItem{前端相关}\\
-% \textit{$\bullet$ 熟悉react, react-native, redux, alt，js/CSS/html, jss, typescript等} \\
+% \CVItem{2011 - 2014\hfill\textsc{四川大学}}\\
+% \textit{-计算机科学与技术专业硕士}\\
 % \\
-% \CVItem{后端相关}\\
-% \textit{$\bullet$ 熟悉spring boot框架, nodejs, mongodb等 } \\
-% \\
-% \CVItem{其它}\\
-% \textit{$\bullet$ 熟悉CI/CD, Agile, Scrum，TDD等开发方法, 前后端测试框架 }\\
-% \\
+% \CVItem{2007 - 2011\hfill\textsc{四川大学}}\\
+% \textit{-公共管理学院本科}\\
+
+% Skills
+\CVSection{专业技能}
+\hrule
+\SmallSep
+\CVItem{前端相关}\\
+\textit{$\bullet$ 熟悉react, react-native, typescript等} \\
+\\
+\CVItem{后端相关}\\
+\textit{$\bullet$ 熟悉spring boot/cloud框架, nodejs, ruby on rails等 } \\
+\\
+\CVItem{Devops}\\
+\textit{$\bullet$ 熟悉AWS常用服务，Terraform，Docker, K8s等 }\\
+
+\CVItem{其它}\\
+\textit{$\bullet$ 熟悉CI/CD, Agile, Scrum，TDD等开发方法, 前后端测试框架 }\\
+\\
 
 % Experience
 \CVSection{工作经历}
 \hrule
 \SmallSep
 \CVItem{2016.10 - 至今 \hfill ThoughtWorks}\\
-\textit{$\bullet$ 担任软件工程师，Tech Leader} \\
-\textit{$\bullet$ 项目简介：项目为一家海外金融机构的网上保险和网上银行业务, 通过
-  采集新用户信息，验证并提交来创建新帐户, 或老用户登录来查看和管理自己的网上银行帐户信
-  息.} \\
+\textit{$\bullet$ 担任软件工程师，Tech Lead} \\
+\textit{$\bullet$ 项目1简介：一家海外政府的应用运维（2021.9-2022.2）} \\
+\textit{$\bullet$ 项目技术细节:项目使用react和spring cloud搭建应用。部署在AWS云服务上。}\\
+
+
+\textit{$\bullet$ 项目2简介：一家海外地产公司的数据平台（2021.2-2021.9）} \\
+\textit{$\bullet$ 项目技术细节:项目使用airflow从AWS和Salesforce上迁移并清洗数据到GCP，在GCP上建立数据市场供公司内部使用，用清洗后的数据反哺应用。}\\
+
+
+\textit{$\bullet$ 项目3简介：一家国内金融公司的低代码平台（2020.9-2021.2）} \\
+\textit{$\bullet$ 项目技术细节: \\\textbf{前端}主要采用~react~ \\
+  \textbf{后端}主要使用~spring boot~ }\\
+
+
+\textit{$\bullet$ 项目4简介：一家澳洲金融公司的低代码平台（2020.1-2020.9）} \\
+\textit{$\bullet$ 项目技术细节: \\\textbf{前端}主要采用~react~ \\
+  \textbf{后端}主要使用~nodejs~ \\
+  \textbf{Devops方面:}大量使用~AWS~云服务如stepFunction, Lambda, cloudformation，SES。也使用了AzureAD等Azure服务} \\
+
+
+\textit{$\bullet$ 项目5简介：新加坡政府的国民应用（2018.8-2020.1)} \\
+\textit{$\bullet$ 项目技术细节: \\\textbf{前端}主要采用~react+react native~; \\
+  \textbf{后端}主要使用~Nodejs~搭建微服务架构, Elastic Search做存储和搜索。\\
+  \textbf{Devops方面:}使用~AWS~云服务,使用terraform做IaC，使用~Bamboo~做~CI/CD~} \\
+
+
+\textit{$\bullet$ 项目6简介：一家海外金融机构的网上保险和网上银行业务（2016.10-2018.8)} \\
 \textit{$\bullet$ 项目技术细节: \\\textbf{前端}主要采用~react+redux~搭建用户页面; 使用babel编
   译~ES6~和~react~语法; 使用~webpack2~打包~css~和~js~文件; 使用~enzyme~和~mocha~实现了95\%以上前端单元测
   试; 使用~eslint~做前端代码格式检查; 并使用~prettier-js~做前端代码自动格式化; 搭建
@@ -165,17 +198,15 @@
   ~service~间的传递日志; 使用~dozer做不同~data model~间的转换; 使用~lombok~消除
   大量冗余代码; 使用pact做服务间协议测试. \\
   \textbf{Devops方面:}使用~AWS~云服务, 使用~Jenkins~做~CI/CD~, 使用蓝绿部署来上线.} \\
-\\
+
 \CVItem{2015.10 - 2016.10 \hfill 创业项目}\\
 \textit{$\bullet$ 参加创业项目。搭建医院血透管理系统} \\
 \textit{$\bullet$ 项目技术栈：后端采用~nodejs + mongodb~, 前端采用~react+redux~} \\
-\textit{$\bullet$ 项目通过患者移动端，和医院~web~端协同工作，实现肾病患者的全周
-  期管理。}\\
+\textit{$\bullet$ 项目通过患者移动端，和医院~web~端协同工作，实现肾病患者的全周期管理。}\\
 \\
-% \CVItem{2014.07 - 2015.09\hfill CIeNET，瞬联科技}\\
-% \textit{$\bullet$ 担任后端工程师，开发并维护电信后台计费系统Kenan} \\
-% \textit{$\bullet$ 项目主要采用C/C++, 基于Unix服务器开发，熟悉vim, emacs, unix等
-%   开发工具和开发环境, 所在小组参与了实时计费系统和后计费系统的整合。} \\
+\CVItem{2014.07 - 2015.10 \hfill 瞬联科技}\\
+\textit{$\bullet$ 担任后端工程师，维护电信后台计费系统} \\
+\textit{$\bullet$ 项目主要采用C/C++, 基于Unix服务器开发，熟悉unix工具链和开发环境, 所在小组参与了实时计费系统和后计费系统的整合。} \\
 
 % CAMPU
 %% \CVSection{专业经历}
